@@ -10,7 +10,7 @@ app.use(cors()); //parametros dominios que podem acessar a api e/ou configura√ß√
 //Iniciando o DB
 mongoose.connect('mongodb://localhost:27017/nodeapi', 
 { useNewUrlParser: true}
-); //andrebertonha@senha
+); 
 
 requireDir('./src/models');
 
